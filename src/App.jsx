@@ -116,7 +116,7 @@ function App() {
             <input
               name="graduationYear"
               type="number"
-              value="Graduation Year"
+              value={graduationYear}
               onChange={(e) => setGraduationYear(Number(e.target.value))}
               min={2023}
               max={2030}
